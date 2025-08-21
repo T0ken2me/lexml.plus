@@ -1,0 +1,20 @@
+/vocab/0.1/vocab.jsonld
+  Content-Type: application/ld+json; charset=utf-8
+  Cache-Control: public, max-age=31536000, immutable
+/vocab/0.1/vocab.ttl
+  Content-Type: text/turtle; charset=utf-8
+  Cache-Control: public, max-age=31536000, immutable
+/shacl/0.1/lexml_shapes.ttl
+  Content-Type: text/turtle; charset=utf-8
+  Cache-Control: public, max-age=31536000, immutable
+/rule/*.jsonld
+  Content-Type: application/ld+json; charset=utf-8
+  Cache-Control: public, max-age=31536000, immutable
+/rule/*.lrml.xml
+  Content-Type: application/xml; charset=utf-8
+  Cache-Control: public, max-age=31536000, immutable
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Content-Security-Policy: default-src 'self'

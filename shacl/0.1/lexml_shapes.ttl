@@ -1,0 +1,26 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <https://lexml.plus/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+lex:RuleShape
+  a sh:NodeShape ;
+  sh:targetClass lex:Rule ;
+  sh:property [
+    sh:path lex:subject ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path lex:action ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path prov:wasDerivedFrom ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path lex:appliesFrom ;
+    sh:datatype xsd:date ;
+    sh:minCount 1 ;
+  ] .

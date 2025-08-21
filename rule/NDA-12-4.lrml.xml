@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lrml:LegalRuleML xmlns:lrml="http://docs.oasis-open.org/legalruleml/ns/v1.0/">
+  <lrml:PrescriptiveStatement key="NDA-12-4">
+    <lrml:appliesFrom>2025-09-01</lrml:appliesFrom>
+  </lrml:PrescriptiveStatement>
+</lrml:LegalRuleML>

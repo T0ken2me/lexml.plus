@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "lex": "https://lexml.plus/vocab#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "Rule": "lex:Rule",
+    "ObligationRule": "lex:ObligationRule",
+    "ProhibitionRule": "lex:ProhibitionRule",
+    "PermissionRule": "lex:PermissionRule",
+    "subject": "lex:subject",
+    "action": "lex:action",
+    "appliesFrom": {
+      "@id": "lex:appliesFrom",
+      "@type": "xsd:date"
+    },
+    "appliesUntil": {
+      "@id": "lex:appliesUntil",
+      "@type": "xsd:date"
+    },
+    "timeframeISO8601": "lex:timeframeISO8601",
+    "overrides": "lex:overrides",
+    "conflictsWith": "lex:conflictsWith",
+    "explainHint": "lex:explainHint",
+    "wasDerivedFrom": "prov:wasDerivedFrom"
+  },
+  "@id": "https://lexml.plus/vocab/0.1",
+  "dct:license": "https://creativecommons.org/licenses/by/4.0/"
+}

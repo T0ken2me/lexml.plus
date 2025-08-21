@@ -1,0 +1,19 @@
+@prefix lex: <https://lexml.plus/vocab#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<https://lexml.plus/vocab/0.1> dct:license <https://creativecommons.org/licenses/by/4.0/> .
+
+lex:Rule a rdfs:Class .
+lex:ObligationRule a rdfs:Class ; rdfs:subClassOf lex:Rule .
+lex:ProhibitionRule a rdfs:Class ; rdfs:subClassOf lex:Rule .
+lex:PermissionRule a rdfs:Class ; rdfs:subClassOf lex:Rule .
+
+lex:subject a rdf:Property .
+lex:action a rdf:Property .
+lex:appliesFrom a rdf:Property ; rdfs:range xsd:date .
+lex:appliesUntil a rdf:Property ; rdfs:range xsd:date .
+lex:timeframeISO8601 a rdf:Property .
+lex:overrides a rdf:Property .
+lex:conflictsWith a rdf:Property .
+lex:explainHint a rdf:Property .

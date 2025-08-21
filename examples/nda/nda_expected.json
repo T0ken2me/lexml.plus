@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "assessment_date": "2025-09-05",
+    "contract_id": "urn:contract:NDA:Demo",
+    "jurisdiction": "LU",
+    "engine_version": "lexml.assess.v0.1"
+  },
+  "results": [
+    {
+      "rule_id": "NDA-RETURN-30D",
+      "status": "pending",
+      "deadline": "2025-09-30",
+      "evaluated_on": "2025-09-05",
+      "explanation": "Recipient must return or destroy within 30 days of termination.",
+      "sources": [
+        "house:nda.return.v3"
+      ]
+    }
+  ]
+}

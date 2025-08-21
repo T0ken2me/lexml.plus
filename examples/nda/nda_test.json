@@ -1,0 +1,23 @@
+{
+  "assessment_date": "2025-09-05",
+  "jurisdiction": "LU",
+  "language": "en-GB",
+  "contract": {
+    "id": "urn:contract:NDA:Demo",
+    "rules": [
+      "https://lexml.plus/rule/NDA-RETURN-30D"
+    ]
+  },
+  "parties": {
+    "recipient": {
+      "id": "urn:party:Acme",
+      "type": "lex:Recipient"
+    }
+  },
+  "facts": {
+    "OnRequestOrTermination": {
+      "triggered": true,
+      "termination_date": "2025-09-01"
+    }
+  }
+}

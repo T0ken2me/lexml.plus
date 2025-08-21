@@ -1,0 +1,10 @@
+{
+  "@context": "https://lexml.plus/vocab/0.1/vocab.jsonld",
+  "@id": "https://lexml.plus/rule/NDA-RETURN-30D",
+  "@type": "ObligationRule",
+  "subject": "Recipient",
+  "action": "ReturnOrDestroyCI",
+  "appliesFrom": "2025-09-01",
+  "timeframeISO8601": "P30D",
+  "wasDerivedFrom": "contract://nda/2025-01#return"
+}
