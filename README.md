@@ -30,6 +30,7 @@
 └─ README.md
 
 
+
 ## Key ideas
 
 - **DSL** – short, human-readable rule syntax (rule NDA-12-4: modality: obligation …).
