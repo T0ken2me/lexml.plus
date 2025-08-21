@@ -1,3 +1,36 @@
+/                     # site root
+├─ vocab/             # controlled vocabulary (JSON-LD + TTL), versioned
+│  └─ 0.1/
+│     ├─ vocab.jsonld
+│     ├─ vocab.ttl
+│     └─ changelog.md
+├─ shacl/             # SHACL validation shapes, versioned
+│  └─ 0.1/
+│     └─ lexml_shapes.ttl
+├─ examples/          # sample rules and contracts
+│  └─ nda/
+│     ├─ nda-lexml.dsl
+│     ├─ nda.jsonld
+│     ├─ nda.lrml.xml
+│     ├─ nda_test.json
+│     └─ nda_expected.json
+├─ rule/              # individual rule identifiers, immutable
+│  ├─ NDA-12-4.jsonld
+│  ├─ NDA-12-4.lrml.xml
+│  └─ …
+├─ clauses/           # clause library (seed YAML/JSON)
+│  └─ seed.yaml
+├─ schemas/           # input/output JSON Schemas for assessments
+│  ├─ assessment.input.v1.json
+│  └─ assessment.output.v1.json
+├─ api/               # OpenAPI specs
+│  └─ openapi.yaml
+├─ functions/         # Cloudflare Pages Functions (content negotiation, CRM)
+├─ scripts/           # SQL migrations, helpers
+└─ README.md
+
+
+
 ## Licensing
 
 LexML+ is licensed under a multi-licence model to balance adoption and protection.
