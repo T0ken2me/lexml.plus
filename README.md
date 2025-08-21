@@ -44,13 +44,13 @@
 ## Deployment
 
 **GitHub → Cloudflare Pages + Functions**
-**Functions handle:
-  → /vocab and /shacl → 303 redirects with content negotiation
-  → /rule/{ID} → resolves to .jsonld or .lrml.xml
-  → /api/crm/* → contact, licensing, feedback, admin
+Functions handle:
+  → /vocab and /shacl → 303 redirects with content negotiation.
+  → /rule/{ID} → resolves to .jsonld or .lrml.xml.
+  → /api/crm/* → contact, licensing, feedback, admin.
 
 Database: **Cloudflare D1**
-Email: **SendGrid** (transactional + magic links for admin login)
+Email: **SendGrid** (transactional + magic links for admin login).
 
 ## Licensing
 
