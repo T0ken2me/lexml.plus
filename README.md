@@ -30,7 +30,6 @@
 └─ README.md
 
 
-
 ## Licensing
 
 LexML+ is licensed under a multi-licence model to balance adoption and protection.
