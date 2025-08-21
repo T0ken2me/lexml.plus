@@ -30,18 +30,27 @@
 └─ README.md
 
 
-Key ideas
+## Key ideas
 
-DSL – short, human-readable rule syntax (rule NDA-12-4: modality: obligation …).
-JSON-LD – linked data serialisation of rules, interoperable with RDF tools.
-LegalRuleML – XML serialisation for formal reasoning.
-SHACL – shapes to validate rule structures (e.g. modalities, dates, exceptions).
-Publishing principles:
-Stable URIs (/vocab/0.1/vocab.jsonld, /shacl/0.1/…, /rule/{ID})
-Content negotiation on /vocab and /shacl (JSON-LD, Turtle, or HTML landing).
-Versioned directories are immutable (cache-forever).
+- **DSL** – short, human-readable rule syntax (rule NDA-12-4: modality: obligation …).
+- **JSON-LD** – linked data serialisation of rules, interoperable with RDF tools.
+- **LegalRuleML** – XML serialisation for formal reasoning.
+- **SHACL** – shapes to validate rule structures (e.g. modalities, dates, exceptions).
+- **Publishing principles:**
+→ Stable URIs (/vocab/0.1/vocab.jsonld, /shacl/0.1/…, /rule/{ID})
+→ Content negotiation on /vocab and /shacl (JSON-LD, Turtle, or HTML landing).
+→ Versioned directories are immutable (cache-forever).
 
+## Deployment
 
+**GitHub → Cloudflare Pages + Functions**
+**Functions handle:
+  → /vocab and /shacl → 303 redirects with content negotiation
+  → /rule/{ID} → resolves to .jsonld or .lrml.xml
+  → /api/crm/* → contact, licensing, feedback, admin
+
+Database: **Cloudflare D1**
+Email: **SendGrid** (transactional + magic links for admin login)
 
 ## Licensing
 
