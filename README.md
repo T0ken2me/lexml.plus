@@ -64,7 +64,7 @@ This repository contains the **vocabulary**, **SHACL shapes**, **example contrac
 
 All users must display attribution:
 
-> *Powered by LexML+ – © 2025 \[Your Organisation]*
+> *Powered by LexML+ – © 2025 \ Erwin SOTIRI*
 
 ---
 
