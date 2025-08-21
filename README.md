@@ -30,6 +30,19 @@
 └─ README.md
 
 
+Key ideas
+
+DSL – short, human-readable rule syntax (rule NDA-12-4: modality: obligation …).
+JSON-LD – linked data serialisation of rules, interoperable with RDF tools.
+LegalRuleML – XML serialisation for formal reasoning.
+SHACL – shapes to validate rule structures (e.g. modalities, dates, exceptions).
+Publishing principles:
+Stable URIs (/vocab/0.1/vocab.jsonld, /shacl/0.1/…, /rule/{ID})
+Content negotiation on /vocab and /shacl (JSON-LD, Turtle, or HTML landing).
+Versioned directories are immutable (cache-forever).
+
+
+
 ## Licensing
 
 LexML+ is licensed under a multi-licence model to balance adoption and protection.
