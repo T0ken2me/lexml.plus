@@ -1,7 +1,7 @@
 # LexML+
 
 **LexML+** is a hybrid framework for expressing legal rules in a **lawyer-friendly DSL** and compiling them into **JSON-LD** and **LegalRuleML** for automation, compliance checking, and explainability.
-This repository contains the **vocabulary**, **SHACL shapes**, **example contracts**, **schemas**, and the **mini-CRM scaffolding** for the lexml.plus site.
+This repository contains the **vocabulary**, **SHACL shapes**, **example contracts**, **schemas**.
 
 ---
 
