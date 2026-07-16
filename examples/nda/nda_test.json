@@ -5,7 +5,7 @@
   "contract": {
     "id": "urn:contract:NDA:Demo",
     "rules": [
-      "https://lexml.plus/rule/NDA-RETURN-30D"
+      "https://lexml.eu/rule/NDA-RETURN-30D"
     ]
   },
   "parties": {
