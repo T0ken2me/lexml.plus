@@ -1,1 +1,1 @@
-Report security issues to security@lexml.plus.
+Report security issues to security@lexml.eu.

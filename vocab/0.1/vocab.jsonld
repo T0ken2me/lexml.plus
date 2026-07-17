@@ -1,6 +1,6 @@
 {
   "@context": {
-    "lex": "https://lexml.plus/vocab#",
+    "lex": "https://lexml.eu/vocab#",
     "prov": "http://www.w3.org/ns/prov#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "Rule": "lex:Rule",
@@ -23,6 +23,6 @@
     "explainHint": "lex:explainHint",
     "wasDerivedFrom": "prov:wasDerivedFrom"
   },
-  "@id": "https://lexml.plus/vocab/0.1",
+  "@id": "https://lexml.eu/vocab/0.1",
   "dct:license": "https://creativecommons.org/licenses/by/4.0/"
 }

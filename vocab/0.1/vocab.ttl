@@ -1,8 +1,8 @@
-@prefix lex: <https://lexml.plus/vocab#> .
+@prefix lex: <https://lexml.eu/vocab#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 
-<https://lexml.plus/vocab/0.1> dct:license <https://creativecommons.org/licenses/by/4.0/> .
+<https://lexml.eu/vocab/0.1> dct:license <https://creativecommons.org/licenses/by/4.0/> .
 
 lex:Rule a rdfs:Class .
 lex:ObligationRule a rdfs:Class ; rdfs:subClassOf lex:Rule .
