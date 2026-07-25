@@ -1,3 +1,30 @@
+# LexML
+
+Legal knowledge, structured for machines. Two generations live in this
+repository:
+
+- **v2 (active, 2026)** — machine-optimised clause coordinates: a frozen
+  compact tag grammar assigning each clause a content hash, lexical
+  fingerprint, taxonomy class and cited provisions, calibrated by
+  two-model gates and built for LLM retrieval at minimal token cost.
+  Specification, taxonomies, dictionaries and reference validator:
+  [`v2/`](v2/) — start at [`v2/README.md`](v2/README.md).
+- **v1 — LexML+ (published, maintenance mode)** — the hybrid
+  rules-as-code framework (lawyer-friendly DSL, JSON-LD, LegalRuleML,
+  SHACL) served at [lexml.eu](https://lexml.eu/). Published URIs remain
+  stable and versioned directories immutable; no further development is
+  planned on this generation.
+
+The two generations pursue different objectives with different
+fundamentals; the reasoning behind the change is documented in
+[`v1-to-v2.md`](v1-to-v2.md).
+
+**Licensing:** the licensing regime for v2 is under review and will be
+stated expressly in `v2/`; until then the repository's existing licence
+files govern.
+
+---
+
 # LexML+
 
 **LexML+** is a hybrid framework for expressing legal rules in a **lawyer-friendly DSL** and compiling them into **JSON-LD** and **LegalRuleML** for automation, compliance checking, and explainability.
@@ -89,16 +116,3 @@ All users must display attribution:
 4. Submit a pull request.
 
 ---
-
-
-
----
-
-## LexML v2 — machine-optimised clause coordinates (2026)
-
-The second generation lives in [`v2/`](v2/): a machine-only tag grammar
-(frozen v0.3.1) assigning compact legal coordinates per clause —
-content hash, lexical fingerprint, taxonomy class, cited provisions —
-calibrated by two-model gates and validated end to end on real corpora.
-It supersedes the human-readable v1 language above for retrieval use;
-v1 remains as published. Start at [`v2/README.md`](v2/README.md).
