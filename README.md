@@ -91,3 +91,14 @@ All users must display attribution:
 ---
 
 
+
+---
+
+## LexML v2 — machine-optimised clause coordinates (2026)
+
+The second generation lives in [`v2/`](v2/): a machine-only tag grammar
+(frozen v0.3.1) assigning compact legal coordinates per clause —
+content hash, lexical fingerprint, taxonomy class, cited provisions —
+calibrated by two-model gates and validated end to end on real corpora.
+It supersedes the human-readable v1 language above for retrieval use;
+v1 remains as published. Start at [`v2/README.md`](v2/README.md).

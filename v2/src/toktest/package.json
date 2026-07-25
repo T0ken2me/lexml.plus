@@ -1,0 +1,17 @@
+{
+  "name": "toktest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/tokenizer": "^0.0.4",
+    "gpt-tokenizer": "^3.4.0",
+    "llama3-tokenizer-js": "^1.2.0"
+  }
+}

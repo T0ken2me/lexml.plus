@@ -1,0 +1,25 @@
+{
+ "version": "0.1",
+ "format": "CODE + 4-digit article + 2-digit sub, zero-padded, no separators",
+ "statutes": {
+  "CC": "Code civil (LU)", "NCPC": "Nouveau Code de procedure civile",
+  "LSC": "loi modifiee du 10 aout 1915, societes commerciales",
+  "CDT": "Code du travail", "LIR": "loi modifiee du 4 decembre 1967, impot sur le revenu",
+  "TVA": "loi modifiee du 12 fevrier 1979, TVA",
+  "LFS": "loi modifiee du 5 avril 1993, secteur financier",
+  "LCA": "loi du 27 juillet 1997, contrat d'assurance",
+  "LDA": "loi du 18 avril 2001, droits d'auteur [VERIFY date]",
+  "LSA": "loi du 26 juin 2019, secrets d'affaires",
+  "LDOM": "loi modifiee du 31 mai 1999, domiciliation de societes",
+  "OPC": "loi du 17 decembre 2010, OPC (chapters as articles: OPC001500 = chapter 15)",
+  "GDPR": "Regulation (EU) 2016/679", "MICA": "Regulation (EU) 2023/1114",
+  "DORA": "Regulation (EU) 2022/2554", "AMLR": "Regulation (EU) 2024/1624 [VERIFY number]",
+  "EIDA": "Regulation (EU) 910/2014", "BRU": "Regulation (EU) 1215/2012",
+  "ROM": "Regulation (EC) 593/2008",
+  "CSSF": "CSSF circulars: CSSF + yy + number"
+ },
+ "courts": {"CAS": "Cour de cassation LU", "CAL": "Cour d'appel LU",
+            "TAL": "Tribunal d'arrondissement Luxembourg",
+            "EUC": "CJEU", "ECH": "ECtHR"},
+ "case_ref": "court + yyyy + case number or MMDD for date-based citations"
+}
