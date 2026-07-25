@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 — LexML v2 — E. Sotiri / Jurisconsul — lexml.eu -->
 # LexML dry run 2 — seven new documents (24 July 2026)
 
 Corpus: a ManCo establishment memorandum (EN, 2014), two versions of the

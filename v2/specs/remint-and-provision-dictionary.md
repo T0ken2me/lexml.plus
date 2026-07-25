@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 — LexML v2 — E. Sotiri / Jurisconsul — lexml.eu -->
 # LexML mnemonic re-mint and provision-token dictionary (v0.1)
 
 Date: 24 July 2026. Method: same four-tokeniser harness as the tokeniser

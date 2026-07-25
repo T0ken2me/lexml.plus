@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 — LexML v2 — E. Sotiri / Jurisconsul — lexml.eu -->
 # LexML grammar v0.3.1 — FREEZE RECORD
 
 Frozen: 24 July 2026. From this version, tags written are tags honoured:

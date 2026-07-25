@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 — LexML v2 — E. Sotiri / Jurisconsul — lexml.eu -->
 # SPA family module — draft v0.1 (pre-gate)
 
 Status: DRAFT, admission gate pending. Derived from the residual clusters of

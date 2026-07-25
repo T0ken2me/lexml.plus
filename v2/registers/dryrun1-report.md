@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 — LexML v2 — E. Sotiri / Jurisconsul — lexml.eu -->
 # LexML end-to-end dry run — report (24 July 2026)
 
 Corpus: 6 real documents — two versions of a 2011 NDA (archive), the 2013

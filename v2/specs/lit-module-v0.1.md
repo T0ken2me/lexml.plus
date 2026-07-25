@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 — LexML v2 — E. Sotiri / Jurisconsul — lexml.eu -->
 # Litigation module — unit model and coordinates (spec v0.1)
 
 Scope: pleadings and judicial acts for Luxembourg courts (assignations,

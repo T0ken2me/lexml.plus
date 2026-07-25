@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Erwin Sotiri / Jurisconsul
 """LexML reference validator — grammar v0.3.1 (FROZEN 2026-07-24).
 Usage: python validator.py <tagfile> [rootsfile]
 Each line of tagfile: a D: or C: tag (optionally prefixed by ids, last token used).

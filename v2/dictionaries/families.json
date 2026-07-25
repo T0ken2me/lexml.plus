@@ -1,18 +1,66 @@
 {
+ "license": "CC-BY-4.0",
+ "attribution": "LexML v2 - E. Sotiri / Jurisconsul - lexml.eu",
  "version": "0.3.1",
  "families": {
-  "CON": {"label": "confidentiality", "was": "CNF"},
-  "REM": {"label": "remedies and liability", "was": "LIA"},
-  "TER": {"label": "term and termination", "was": "TRM"},
-  "DIS": {"label": "disputes / pleadings (LIT module)", "was": "LIT"},
-  "DSP": {"label": "dispute resolution clauses"},
-  "GEN": {"label": "general provisions"},
-  "IPA": {"label": "intellectual property"},
-  "PER": {"label": "personnel restrictions"},
-  "SPA": {"label": "share/asset transfer module"},
-  "DPR": {"label": "data protection", "note": "token screen pending"}
+  "CON": {
+   "label": "confidentiality",
+   "was": "CNF"
+  },
+  "REM": {
+   "label": "remedies and liability",
+   "was": "LIA"
+  },
+  "TER": {
+   "label": "term and termination",
+   "was": "TRM"
+  },
+  "DIS": {
+   "label": "disputes / pleadings (LIT module)",
+   "was": "LIT"
+  },
+  "DSP": {
+   "label": "dispute resolution clauses"
+  },
+  "GEN": {
+   "label": "general provisions"
+  },
+  "IPA": {
+   "label": "intellectual property"
+  },
+  "PER": {
+   "label": "personnel restrictions"
+  },
+  "SPA": {
+   "label": "share/asset transfer module"
+  },
+  "DPR": {
+   "label": "data protection",
+   "note": "token screen pending"
+  }
  },
- "reserved_single_token": ["SEC","CAP","IND","RES","END","EXP","FIN","PLE","PRO","ARG","EMP","SER"],
- "doctypes": ["NDA","SPA","DIS","SVC","DOM","MEM","LTR"],
+ "reserved_single_token": [
+  "SEC",
+  "CAP",
+  "IND",
+  "RES",
+  "END",
+  "EXP",
+  "FIN",
+  "PLE",
+  "PRO",
+  "ARG",
+  "EMP",
+  "SER"
+ ],
+ "doctypes": [
+  "NDA",
+  "SPA",
+  "DIS",
+  "SVC",
+  "DOM",
+  "MEM",
+  "LTR"
+ ],
  "doctrine": "families require single-token screen; doctypes may trade one token for zero-shot transparency"
 }

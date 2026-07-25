@@ -28,3 +28,19 @@ Calibrated: NDA (98.5/93.0/90.8), SPA (100/97.8/94.6). Queued through the
 loop: SVC module (~50 percent residual measured), MEM module spec (third
 unit model), DOM micro-module, LIT gate, DPR token screen, NDA 2015-2022
 out-of-sample, SPA sample top-up. See HANDOFF.md for the build plan.
+
+
+## Licensing (stated 25 July 2026)
+
+- **Code** (`src/`): Apache License 2.0 — see `LICENSE`. Chosen over MIT
+  for its express patent grant (s.3), patent-retaliation clause and
+  trade-mark reservation (s.6).
+- **Specifications, taxonomies, dictionaries, registers, data**:
+  CC BY 4.0 — see `LICENSE-DOCS.md`, including the required attribution
+  formula.
+- The licence files at the repository root (AGPLv3 and the v1 dual
+  licensing regime) apply to the v1 (LexML+) materials only and do not
+  extend to this directory.
+- Implementing the LexML tag format from these specifications is not
+  conditioned on either licence; attribution obligations attach to
+  reproduction and adaptation of the documents and data themselves.

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 — LexML v2 — E. Sotiri / Jurisconsul — lexml.eu -->
 # LexML extension stress test — four documents outside the NDA family
 
 Date: 24 July 2026. Sample: one share transfer agreement (2013, FR), two

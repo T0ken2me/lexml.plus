@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 — LexML v2 — E. Sotiri / Jurisconsul — lexml.eu -->
 # Seed clause taxonomy — NDA family (v0.1)
 
 Status: DRAFT — pre-calibration. This version exists to be tested, not applied.

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 — LexML v2 — E. Sotiri / Jurisconsul — lexml.eu -->
 # SPA family module — v0.2 (ADMITTED)
 
 Gate run of 24 July 2026 (Sonnet vs reference, 93 units): level 1 100%,

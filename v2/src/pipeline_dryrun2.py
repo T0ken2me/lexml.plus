@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Erwin Sotiri / Jurisconsul
 """Dry run 2: seven new documents (memos, service agreements, domiciliation
 template) through the pipeline; results merged with run 1 for corpus checks."""
 import re, json, time, hashlib

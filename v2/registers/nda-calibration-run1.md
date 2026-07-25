@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 — LexML v2 — E. Sotiri / Jurisconsul — lexml.eu -->
 # LexML clause taxonomy — calibration run 1 (NDA family)
 
 Date: 22 July 2026. Sample: 130 clause units from 8 distinct NDAs in the firm

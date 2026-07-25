@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Erwin Sotiri / Jurisconsul
 """LexML end-to-end dry run: 6 documents -> tags -> validator -> indexes -> queries."""
 import hashlib, json, math, re, time, unicodedata
 

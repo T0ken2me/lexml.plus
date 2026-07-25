@@ -19,9 +19,10 @@ The two generations pursue different objectives with different
 fundamentals; the reasoning behind the change is documented in
 [`v1-to-v2.md`](v1-to-v2.md).
 
-**Licensing:** the licensing regime for v2 is under review and will be
-stated expressly in `v2/`; until then the repository's existing licence
-files govern.
+**Licensing:** v2 is expressly licensed in `v2/` — Apache-2.0 for code,
+CC BY 4.0 for specifications, taxonomies, dictionaries and data (stated
+25 July 2026). The licence files at the repository root (AGPLv3, CC-BY
+and the dual commercial regime) govern the v1 (LexML+) materials only.
 
 ---
 
@@ -88,6 +89,7 @@ This repository contains the **vocabulary**, **SHACL shapes**, **example contrac
 * **Vocabulary, SHACL, examples** → [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 * **Code (compiler, functions, CRM)** → [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html).
 * **Commercial use** → available under dual licensing, see `ORDER-FORM.md` and `PRICING-ANNEX.md`.
+* **Scope** → this regime governs the v1 (LexML+) materials at the repository root and its v1 directories; `v2/` carries its own licences (Apache-2.0 code, CC BY 4.0 documentation — see `v2/LICENSE` and `v2/LICENSE-DOCS.md`).
 
 All users must display attribution:
 

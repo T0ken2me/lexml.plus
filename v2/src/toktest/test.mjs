@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+// Copyright 2026 Erwin Sotiri / Jurisconsul
 // Tokeniser test for LexML tag grammar candidates.
 // Measures token counts across three offline BPE families.
 import { encode as cl100k } from "gpt-tokenizer/encoding/cl100k_base";

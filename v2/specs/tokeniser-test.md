@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 — LexML v2 — E. Sotiri / Jurisconsul — lexml.eu -->
 # LexML tokeniser test — results and grammar amendments (v0.2)
 
 Date: 24 July 2026. Method: candidate tag formats measured against four real

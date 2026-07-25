@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 — LexML v2 — E. Sotiri / Jurisconsul — lexml.eu -->
 # LexML tag grammar — spec v0.1 (pre-freeze)
 
 Status: DRAFT. Freezes only after the tokeniser test on candidate alphabets.

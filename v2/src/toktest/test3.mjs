@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: Apache-2.0
+// Copyright 2026 Erwin Sotiri / Jurisconsul
 import { encode as cl100k } from "gpt-tokenizer/encoding/cl100k_base";
 import { encode as o200k } from "gpt-tokenizer/encoding/o200k_base";
 import { countTokens as claudeCount } from "@anthropic-ai/tokenizer";

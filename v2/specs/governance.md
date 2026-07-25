@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 — LexML v2 — E. Sotiri / Jurisconsul — lexml.eu -->
 # LexML taxonomy governance — extension and maintenance rulebook (v1.0)
 
 Purpose: the standing mechanism by which the clause taxonomy extends to new
